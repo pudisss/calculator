@@ -1,0 +1,136 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.main-section {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../assets/images/calculator-background.svg");
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Mulish";
+}
+.main-section .calculator {
+  width: 428px;
+  height: 90vh;
+  background: #FCFBF6;
+  border: none;
+  border-radius: 30px;
+  opacity: 0.8;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+}
+.main-section .calculator .result {
+  position: relative;
+  top: 5rem;
+  right: 4.5rem;
+  font-size: 55px;
+  font-weight: 700;
+  color: #505050;
+}
+.main-section .calculator .expression {
+  position: relative;
+  top: 7.5rem;
+  right: 4.5rem;
+  font-size: 33px;
+  font-weight: 600;
+  color: #505050;
+}
+.main-section .calculator .numpad {
+  position: relative;
+  top: 12rem;
+  left: 2.5rem;
+  justify-self: flex-end;
+  width: 100%;
+  height: 50%;
+  display: grid;
+  grid-template-columns: 83px 83px 83px 83px;
+  grid-template-rows: 81px 81px 81px 81px 81px;
+  grid-template-areas: "AC blank divide delete" "seven eight nine time" "four five six minus" "one two three plus" "zeroes dots equal equal";
+  grid-column-gap: 5px;
+  grid-row-gap: 5px;
+}
+.main-section .calculator .numpad div {
+  width: 70px;
+  height: 70px;
+  background-color: white;
+  border: none;
+  border-radius: 10px;
+  box-shadow: -4px 4px 4px rgba(0, 0, 0, 0.05);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  font-weight: 600;
+  color: #505050;
+}
+.main-section .calculator .numpad .AC {
+  grid-area: AC;
+  background-color: #FFD130;
+}
+.main-section .calculator .numpad .blank {
+  grid-area: blank;
+  background-color: #FFD130;
+}
+.main-section .calculator .numpad .divide {
+  grid-area: divide;
+  background-color: #FFD130;
+}
+.main-section .calculator .numpad .delete {
+  grid-area: delete;
+  background-color: #FFD130;
+}
+.main-section .calculator .numpad .times {
+  grid-area: time;
+  background-color: #FFD130;
+}
+.main-section .calculator .numpad .minus {
+  grid-area: minus;
+  background-color: #FFD130;
+}
+.main-section .calculator .numpad .plus {
+  grid-area: plus;
+  background-color: #FFD130;
+}
+.main-section .calculator .numpad .equal {
+  grid-area: equal;
+  background-color: #FFD130;
+}
+.main-section .calculator .numpad .dot {
+  grid-area: dots;
+  background-color: #FFD130;
+}
+.main-section .calculator .numpad .zero {
+  grid-area: zeroes;
+}
+.main-section .calculator .numpad .one {
+  grid-area: one;
+}
+.main-section .calculator .numpad .two {
+  grid-area: two;
+}
+.main-section .calculator .numpad .three {
+  grid-area: three;
+}
+.main-section .calculator .numpad .four {
+  grid-area: four;
+}
+.main-section .calculator .numpad .five {
+  grid-area: five;
+}
+.main-section .calculator .numpad .six {
+  grid-area: six;
+}
+.main-section .calculator .numpad .seven {
+  grid-area: seven;
+}
+.main-section .calculator .numpad .eight {
+  grid-area: eight;
+}
+.main-section .calculator .numpad .nine {
+  grid-area: nine;
+}/*# sourceMappingURL=index.css.map */
